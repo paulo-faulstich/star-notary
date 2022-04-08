@@ -136,3 +136,11 @@ compilers: {
 ---
 
 Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
+
+
+## Project Sumission Information
+1. Truffle version: v5.0.2 (core: 5.0.2)
+2. OpenZeppelin version: v2.3.0
+3. ERC-721 Token Name: Acme Star
+4. ERC-721 Token Symbol: ACMES
+5. Contract Address on Rinkeby Network: 0x868aBb5fFc6888A93690ebE21Eb1FBA0E10Dd207

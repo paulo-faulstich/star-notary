@@ -1,6 +1,27 @@
 {
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.4",
     "openzeppelin-solidity": "2.3",
     "web3": "^1.7.1"
-  }
+  },
+  "name": "star-notary",
+  "description": "**PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-faulstich/star-notary.git"
+  },
+  "author": "Paulo Faulstich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-faulstich/star-notary/issues"
+  },
+  "homepage": "https://github.com/paulo-faulstich/star-notary#readme"
 }
