@@ -112,14 +112,14 @@ it('lets a user transfer a star', async() => {
     // 3. Verify the star owner changed.
 
     let instance = await StarNotary.deployed();
-    let tokenId1 = 10005;
+    let tokenId = 10005;
     let sender = accounts[0];
     let reciever = accounts[0];
     
-    await instance.createStar('Transfer Star!', tokenId1, {from: sender})
-    await instance.transferStar(reciever, tokenId1, {from: sender, gasPrice:0});
+    await instance.createStar('Transfer Star!', tokenId, {from: sender})
+    await instance.transferStar(reciever, tokenId, {from: sender, gasPrice:0});
     
-    assert.equal(await instance.ownerOf(tokenId1), reciever);
+    assert.equal(await instance.ownerOf(tokenId), reciever);
 });
 
 it('lookUptokenIdToStarInfo test', async() => {
